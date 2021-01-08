@@ -1,0 +1,32 @@
+document.write("<div id='span_myads'><script type='text/javascript'> var cpro_id = 'u6333601';</script><script type='text/javascript' src='http://cpro.baidustatic.com/cpro/ui/c.js'></script></div>"); 
+document.write("<script type='text/javascript'>");
+document.write("document.getElementById('myaas').innerHTML = document.getElementById('span_myads').innerHTML; document.getElementById('span_myads').innerHTML = ''; </script> ");
+document.write("<div id='span_myaas1'><script type='text/javascript'> var cpro_id = 'u6333602';</script><script type='text/javascript' src='http://cpro.baidustatic.com/cpro/ui/c.js'></script></div>");
+document.write("<script type='text/javascript'> document.getElementById('myaas1').innerHTML = document.getElementById('span_myaas1').innerHTML; document.getElementById('span_myaas1').innerHTML = ''; </script> "); 
+
+/*2019年5月9日14:23:01cxx*/
+// $("#gsxz .lile a").each(function(){
+// 	var old=$(this).attr('href');
+
+// 	if(old.indexOf('down.asp')>-1){
+
+// 	}else{
+// 		$(this).attr('href','http://down.xt23.com/go.asp?url='+old);
+// 	}
+	
+// });
+//makeding 2020年11月9日10:22:14
+var softname= $("h1").text().toLowerCase();
+
+if(softname.indexOf('会声会影')>-1){
+		$("#xzdz").before("<div><a href='http://wm.makeding.com/iclk/?zoneid=38510' target='_blank'><img style='width:790px' src='/images/huishenhiuyin.jpg'></a></div>");
+}
+if(softname.indexOf('coreldraw')>-1){
+		$("#xzdz").before("<div><a href='http://wm.makeding.com/iclk/?zoneid=38511' target='_blank'><img style='width:790px' src='/images/coreldraw.jpg'></a></div>");
+}
+if(softname.indexOf('easyrecovery')>-1){
+		$("#xzdz").before("<div><a href='http://wm.makeding.com/iclk/?zoneid=38512' target='_blank'><img style='width:790px' src='/images/easyrecovery.jpg'></a></div>");
+}
+if(softname.indexOf('mindmanager')>-1){
+		$("#xzdz").before("<div><a href='http://wm.makeding.com/iclk/?zoneid=38513' target='_blank'><img style='width:790px' src='/images/mindmanager.jpg'></a></div>");
+}
